@@ -2,7 +2,7 @@
 .container {
     padding: 10px 20px;
     overflow: hidden;
-   border: 1px solid red;
+   /* border: 1px solid red; */
    /* background-image: url(../../../public//img//blue.png);
    background-repeat: no-repeat;
    background-size: 20%; */
@@ -41,25 +41,24 @@
 .listcont{
     display: block;
     color: #17ADC0;
+    padding: 10px 0;
     font-size: 0.9rem;
-    line-height: 1rem;
+    line-height: 1.5rem;
     /* border: 1px solid red; */
 }
 .items:hover{
-    color: #77C3FD;
+    color: red;
 }
-.buttoncont{
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-  
-}
+
 .buttonone{
-    padding:5px 14px;
+    padding:1px 10px;
     border-radius: 20px;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
     background-color: #007A89;
     color: white;
     border: none;
+    margin-top: 3px;
 }
 .visibleOnDesktop {
     display: none;
@@ -97,16 +96,23 @@
         height: 60px;
     }
   
-    .listcont, .buttonone{
+    .listcont{
+        padding: 20px 0;
         display: block;
-        font-size: 1.5rem;
-        line-height: 1.5rem;
+        font-size: 1.3rem;
+    line-height: 2rem;
     }
     .subcont{
         display: block;
     }
     .visibleOnDesktop {
         display: none;
+      }
+      .buttonone{
+        font-size: 1.3rem;
+        line-height: 1.5rem;
+        margin-top: 6px;
+        padding: 5px 15px;
       }
 }
 
@@ -143,19 +149,23 @@
         visibility: hidden;
     }
     .listcont{
+        padding: 0;
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 33px;
         padding:0 10px;
         flex: 3;
-        font-size: 1.0rem;
+        font-size: 0.9rem;
         line-height: 1rem;
        
     }
     .buttonone{
-        font-size: 1.0rem;
+        padding:5px 14px;
+    border-radius: 20px;
+        font-size: 0.9rem;
         line-height: 1rem;
+        margin-top: 0;
     }
     .blue{
         position:absolute;
@@ -197,8 +207,8 @@
         gap: 42px;
         height: 6vh;
         flex: 3;
-        font-size: 1.2rem;
-        line-height: 1.2rem;
+        font-size: 0.9rem;
+        line-height: 1rem;
 
     }
     .logocont{
