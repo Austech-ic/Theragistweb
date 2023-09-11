@@ -1,0 +1,163 @@
+.main{
+    background-color: #F9F6F6;
+    padding: 70px;
+}
+.bold{
+    font-weight: bolder;
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+}
+.head{
+    text-align: center;
+    font-weight: 100;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+}
+.text{
+    text-align: center;
+    font-weight: 100;
+    font-size: 0.8rem;
+    line-height: 1.4rem;
+    letter-spacing: 1px;
+}
+.cont{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    padding: 60px 0 10px 0;
+   
+    
+    
+}
+.contcont{
+border: 1px solid #17ADC0;
+    border-radius: 10px;
+    padding: 60px 10px;
+    text-align: center;
+   font-size: 0.9rem;
+   line-height: 1.6rem;
+   position: relative;
+   box-shadow: 4px 0px 4px 4px rgba(0.1, 0, 0.1, 0.1);
+  
+}
+.circle{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: -25px;
+    left: 35%;
+   
+    /* top: 2rem;
+    left: 5.5rem; */
+}
+.center{
+    /* text-align: start; */
+}
+/* .dat{
+    left: 7rem;
+    position: absolute;
+} */
+
+
+@media (min-width:768px) {
+    .main{
+    background-color: #F9F6F6;
+    padding: 70px;
+}
+.bold{
+    font-weight: bolder;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+}
+.head{
+    text-align: center;
+    font-weight: 100;
+    font-size: 1.0rem;
+    line-height: 2.5rem;
+}
+.text{
+    text-align: center;
+    font-weight: 100;
+    font-size: 1.0rem;
+    line-height: 1.6rem;
+}
+.cont{
+    display: flex;
+    flex-direction: row;
+    gap: 56px;
+    align-items: center;
+    
+}
+.contcont{
+     padding: 50px 10px;
+     /* background-color: red; */
+}
+.circle{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    /* bottom: 8.5rem; */
+}
+
+}
+
+
+
+@media (min-width:1024px) {
+    .main{
+    background-color: #F9F6F6;
+    padding: 70px;
+}
+.bold{
+    font-weight: bolder;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+}
+.head{
+    text-align: center;
+    font-weight: 100;
+    font-size: 1.0rem;
+    line-height: 2.5rem;
+}
+.text{
+    text-align: center;
+    font-weight: 100;
+    font-size: 1.0rem;
+    line-height: 1.6rem;
+}
+.cont{
+    gap: 100px;
+    padding: 70px 40px;
+}
+.contcont{
+    padding: 60px 20px;
+}
+
+}
+@media (min-width:1280px) {
+    /* .contcont{
+        padding: 143px 10px;
+    font-size: 1.0rem;
+    line-height: 1.5rem;
+    
+} */
+.contcont{
+    padding: 99px 10px;
+    font-size: 1.0rem;
+    line-height: 1.9rem;
+}
+.cont{
+    gap: 100px;
+    padding: 70px 40px;
+    /* background-color: red; */
+}
+.circle{
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    /* bottom: 8.5rem; */
+}
+}

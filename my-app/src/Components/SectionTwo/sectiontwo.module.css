@@ -1,0 +1,294 @@
+.submain{
+    background-color: white;
+    padding: 50px 30px;
+}
+.divcont{
+    background-color: #FDF2DB;
+    padding: 40px 30px;
+}
+.text{
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+.label{
+     font-weight: bolder;
+     font-size: 1.3rem;
+    line-height: 2rem;
+}
+.texts{
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+.cont{
+    display: flex;
+    /* border: 1px solid red; */
+    flex-direction: column-reverse;
+     padding: 20px 0;
+     gap: 40px;
+     /* border: 1px solid red; */
+}
+.conts{
+    display: flex;
+    /* border: 1px solid red; */
+    flex-direction: column;
+     padding: 20px 0;
+     gap: 40px;
+     /* border: 1px solid blue; */
+}
+.contone{
+    background-color: #D9D9D9;
+    padding: 120px 0;
+    border-radius: 10px;
+}
+.contone{
+    background-color: #D9D9D9;
+    padding: 120px 0;
+    border-radius: 10px;
+}
+.contones{
+    /* background-color: #D9D9D9; */
+    /* padding: 20px 0; */
+    border-radius: 10px;
+}
+.img{
+    width: 100%;
+    height: auto;
+}
+.textwo{
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    text-align: center;
+}
+.textwotext{
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    text-align: start;
+    margin-top: 10px;
+}
+.textwos{
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+    text-align: start;
+    margin-top: 10px;
+}
+.button{
+    border: none;
+    background-color: transparent;
+    color: #007A89;
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+    font-weight: bold;
+}
+.buttcont{
+    display: flex;
+    align-items: center;
+    color: #007A89;
+    padding: 20px 0;
+}
+.icon{
+    width: 20px;
+    height: 20px;
+}
+.contwo{
+    /* border: 1px solid red; */
+}
+
+
+@media (min-width:768px) {
+    .submain{
+    padding: 100px 40px;
+}
+.divcont{
+     padding: 70px 40px;
+}
+.cont{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+    padding: 50px 0;
+}
+.conts{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 50px;
+    padding: 50px 0;
+}
+.contone{
+    flex: 1;
+    background-color: #D9D9D9;
+    padding: 120px 0;
+    border-radius: 10px;
+}
+.contones{
+    flex: 1;
+    /* background-color: #D9D9D9; */
+    /* padding: 120px 0; */
+    border-radius: 10px;
+}
+.contwo{
+    flex: 1;
+}
+.textwo{
+    font-size: 1.0rem;
+    line-height: 1.6rem;
+    text-align: start;
+}
+.button{
+    font-size: 1.0rem;
+    line-height: 1.3rem;
+}
+.textwotext{
+    font-size: 0.9rem;
+    line-height: 1.6rem;
+    text-align: start;
+    margin-top: 5px;
+}
+.textwos{
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    text-align: center;
+}
+.label{
+     font-weight: bolder;
+     font-size: 1.5rem;
+    line-height: 2.5rem;
+}
+
+.text{
+    font-size: 2.5rem;
+    line-height: 2rem;
+}
+.texts{
+    text-align: center;
+    font-size: 2.0rem;
+    line-height: 2.5rem;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+.icon{
+    width: 25px;
+    height: 25px;
+}
+
+
+
+
+
+}
+
+@media (min-width:1024px) {
+    .textwo{
+    font-size: 1rem;
+    line-height: 1.6rem;
+}
+.cont{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+    padding:40px 60px;
+}
+.conts{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 50px;
+    padding: 40px 60px;
+}
+.texts{
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+.textwotext{
+    font-size: 0.9rem;
+    line-height: 1.6rem;
+    text-align: start;
+    margin-top: 10px;
+}
+.button{
+     font-size: 0.9rem;
+    line-height: 1.6rem;
+}
+.textwos{
+    font-size: 1.0rem;
+    line-height: 2.0rem;
+    text-align: center;
+    font-weight: lighter;
+}
+.label{
+     font-weight: bolder;
+     font-size: 1.5rem;
+    line-height: 2rem;
+}
+.icon{
+    width: 22px;
+    height: 22px;
+}
+
+
+}
+
+
+@media (min-width:1280px) {
+    .cont{
+    gap: 80px;
+    padding: 70px 80px;
+}
+.conts{
+    padding: 70px 80px;
+}
+
+    .textwo{
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+}
+.button{
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+}
+.textwotext{
+    font-size: 1.0rem;
+    line-height: 1.8rem;
+    text-align: start;
+    margin-top: 10px;
+}
+.contone{
+    flex: 1;
+    background-color: #D9D9D9;
+    padding: 150px 0;
+    border-radius: 10px;
+}
+.texts{
+    text-align: center;
+    font-size: 2.0rem;
+    line-height: 3.0rem;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+.textwos{
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    text-align: center;
+    font-weight: lighter;
+}
+.label{
+     font-weight: bolder;
+     font-size: 1.6rem;
+    line-height: 2rem;
+
+}
+
+
+
+}
