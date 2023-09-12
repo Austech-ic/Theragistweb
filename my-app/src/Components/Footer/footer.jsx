@@ -7,6 +7,7 @@ import { AiOutlineGooglePlus } from 'react-icons/ai'
 import { GrLinkedinOption } from 'react-icons/gr'
 
 
+
 const Footer = () => {
     const details = [
         {
