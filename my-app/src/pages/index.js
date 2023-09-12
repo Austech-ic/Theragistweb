@@ -7,6 +7,7 @@ import SectionTwo from '@/Components/SectionTwo/sectiontwo'
 import SectionThree from '@/Components/SectionThree/sectionthree'
 import SectionFour from '@/Components/SectionFour/sectionfour'
 import SectionFive from '@/Components/SectionFive/sectionfive'
+import Footer from '@/Components/Footer/footer'
 
 
 
@@ -19,6 +20,7 @@ export default function Home() {
       <SectionThree />
       <SectionFour />
       <SectionFive />
+      <Footer />
      
    </div>
   )

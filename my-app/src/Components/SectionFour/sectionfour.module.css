@@ -1,6 +1,8 @@
+
 .main{
     background-color: #F9F6F6;
     padding: 70px;
+    /* background-color: red; */
 }
 .bold{
     font-weight: bolder;
@@ -60,10 +62,16 @@ border: 1px solid #17ADC0;
 } */
 
 
-@media (min-width:768px) {
+@media (min-width:768px) 
+{
     .main{
-    background-color: #F9F6F6;
+        max-height: 25vh;
+    /* background-color: #F9F6F6; */
     padding: 70px;
+}
+.container{
+    padding: 40px 0;
+    min-height: 40vh;
 }
 .bold{
     font-weight: bolder;
@@ -107,8 +115,13 @@ border: 1px solid #17ADC0;
 
 @media (min-width:1024px) {
     .main{
-    background-color: #F9F6F6;
+        max-height: 54vh;
+    /* background-color: #F9F6F6; */
     padding: 70px;
+}
+.container{
+    padding: 40px 0;
+    min-height: 90vh;
 }
 .bold{
     font-weight: bolder;
@@ -138,12 +151,13 @@ border: 1px solid #17ADC0;
 
 }
 @media (min-width:1280px) {
-    /* .contcont{
-        padding: 143px 10px;
-    font-size: 1.0rem;
-    line-height: 1.5rem;
-    
-} */
+    .container{
+        padding: 40px 0;
+        min-height: 75vh;
+    }
+.main{
+    max-height: 43vh;
+}
 .contcont{
     padding: 99px 10px;
     font-size: 1.0rem;

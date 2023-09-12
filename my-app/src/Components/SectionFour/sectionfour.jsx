@@ -27,6 +27,7 @@ const SectionFour = () => {
 
 
     return (
+        <div className={styles.container}>
         <div className={styles.main}>
             <div className={styles.submain}>
                 <p className={styles.head}>TESTIMONIALS</p>
@@ -70,6 +71,8 @@ const SectionFour = () => {
 
 
 
+
+        </div>
 
         </div>
     )
