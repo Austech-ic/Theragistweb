@@ -84,6 +84,9 @@ const Footer = () => {
             <div className={styles.lastcont}>
                 <p className={styles.lasttxt}>Copyright © 2023 By Theragist. All Rights Reserved</p>
             </div>
+            <div>
+                
+            </div>
 
 
 
