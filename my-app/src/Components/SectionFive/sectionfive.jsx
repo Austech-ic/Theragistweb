@@ -81,7 +81,7 @@ const SectionFive = () => {
 
             <div className={styles.subcont}>
                 <div className={styles.cont} >
-                <p className={styles.label}> What if I can't afford therapy?</p>
+                <p className={styles.label}>What if I cannot afford therapy?</p>
                 <IoIosArrowDown
                 onClick={toggleTheraphyVisible}
                       className={styles.icon}

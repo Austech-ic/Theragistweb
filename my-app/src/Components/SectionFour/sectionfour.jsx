@@ -8,18 +8,18 @@ const SectionFour = () => {
         {
             id: 1,
             label: "As some who is always been prone to worrying, this app has been a lifesaver",
-            pic:<Image src={circle} className={styles.circle} />
+            pic:<Image src={circle} alt='circle-img' className={styles.circle} />
             
         },
         {
             id: 2,
             label: "As some who is always been prone to worrying, this app has been a lifesaver",
-            pic:<Image src={circle} className={styles.circle} />
+            pic:<Image src={circle} alt='circle-img' className={styles.circle} />
         },
         {
             id: 3,
             label: "As some who is always been prone to worrying, this app has been a lifesaver",
-            pic:<Image src={circle} className={styles.circle} />
+            pic:<Image src={circle} alt='circle-img' className={styles.circle} />
         },
     ]
 

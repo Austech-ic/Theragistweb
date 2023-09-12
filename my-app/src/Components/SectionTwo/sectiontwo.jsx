@@ -29,7 +29,7 @@ const SectionTwo = () => {
                         <p className={styles.label}>Adolescent mental Health</p>
                         <p className={styles.textwotext}>
                             Our expert counselors specialize in guiding young
-                            individuals through life's challenges, providing a safe
+                            individuals through life challenges, providing a safe
                             and confidential space for open conversations.
                             Our goal is to empower adolescents with effective
                             coping strategies, emotional resilience, and a deeper understanding of their emotions.  </p>
@@ -49,7 +49,7 @@ const SectionTwo = () => {
                         <p className={styles.label}>Adolescent mental Health</p>
                         <p className={styles.textwotext}>
                             Our expert counselors specialize in guiding young
-                            individuals through life's challenges, providing a safe
+                            individuals through life challenges, providing a safe
                             and confidential space for open conversations.
                             Our goal is to empower adolescents with effective
                             coping strategies, emotional resilience, and a deeper understanding of their emotions.  </p>

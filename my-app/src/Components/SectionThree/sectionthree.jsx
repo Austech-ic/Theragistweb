@@ -44,11 +44,11 @@ const SectionThree = () => {
                         <p className={styles.label}>Workplace Mental Health</p>
                         <p className={styles.textwotext}>
                             Our employee mental health services offer a
-                            supportive space for you to navigate life's challenges.
+                            supportive space for you to navigate life challenges.
                             Our expert counselors specialize in assisting
                             you through stress, anxiety, and more. With a
                             focus on confidentiality and personalized care,
-                            we're here to help you thrive.
+                            we are here to help you thrive.
                         </p>
                         <div className={styles.buttcont}>
                             <button className={styles.button}>Get started</button>
@@ -93,7 +93,7 @@ const SectionThree = () => {
                         <div className={styles.labelcont}>
                             <h3 className={styles.register}>Register.</h3>
                             <p className={styles.light}>Begin your journey to better mental health by creating
-                                an account on our platform. It's quick, confidential, and
+                                an account on our platform. It is quick, confidential, and
                                 the first step towards finding the support you need.</p>
                         </div>
                         <div className={styles.labelcont}>
