@@ -383,7 +383,7 @@
         width: 200px;
         height: 200px;
         right: 0;
-        top: 970px;
+        top: 854px;;
         /* border: 1px solid red; */
     }
     .clockimg{
@@ -481,14 +481,14 @@
 
     .top_light_image {
         position: absolute;
-        top: -40px;
+            top: -68px;
         right: 240px;
         display: block;
     }
 
     .top_blue_image {
         position: absolute;
-        top: -40px;
+        top: -90px;
         left: 30px;
         display: block;
         /* z-index: -10; */
@@ -588,7 +588,7 @@
 
     .top_light_image {
         position: absolute;
-        top: -40px;
+        top: -79px;
         right: 296px;
     }
 

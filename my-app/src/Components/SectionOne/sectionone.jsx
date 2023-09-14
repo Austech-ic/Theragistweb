@@ -13,9 +13,9 @@ import faint from '../../../public/img/faint.png'
 const SectionOne = () => {
     return (
         <div className={styles.main}>
-            <Image src={light} alt='light-img' width={350} height={250} className={styles.top_light_image}/>
+            <Image src={light} alt='light-img' width={350} height={200} className={styles.top_light_image}/>
 
-            <Image src={blue} alt='blue-img' width={350} height={250} className={styles.top_blue_image}/>
+            <Image src={blue} alt='blue-img' width={350} height={200} className={styles.top_blue_image}/>
 
             <div className={styles.subcont}>
                 <div className={styles.contone}>
