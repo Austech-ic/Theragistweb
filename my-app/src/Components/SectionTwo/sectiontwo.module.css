@@ -36,7 +36,7 @@
 .conts{
     display: flex;
     /* border: 1px solid red; */
-    flex-direction: column;
+    flex-direction: column-reverse;
      padding: 20px 0;
      gap: 40px;
      /* border: 1px solid blue; */

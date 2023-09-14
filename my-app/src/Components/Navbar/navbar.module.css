@@ -2,19 +2,22 @@
 .container {
     padding: 10px 20px;
     overflow: hidden;
-   /* border: 1px solid red; */
-   /* background-image: url(../../../public//img//blue.png);
-   background-repeat: no-repeat;
-   background-size: 20%; */
+    /* background-image: url(../../../public//img/light.png);
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    z-index: 1;
+    position: relative; */
 }
 .subcont{
     display: block;
     align-items: center;
+    /* border: 1px solid red; */
+    /* position: relative; */
 }
 .logocont{
     width: 50%;
     height: 5vh;
-    position: relative;
     /* position: relative; */
 }
 .blue{
@@ -34,9 +37,12 @@
     height: 40px;
 }
 .imgcont{
+    /* height: 10vh; */
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* border: 1px solid green; */
+    /* position: relative; */
 }
 .listcont{
     display: block;
@@ -44,7 +50,13 @@
     padding: 10px 0;
     font-size: 0.9rem;
     line-height: 1.5rem;
-    /* border: 1px solid red; */
+   
+    /* border: 1px solid rgb(121, 108, 108); */
+    /* position: absolute;
+    background-color: white;
+    width: 90%;
+    bottom: 457px;
+     */
 }
 .items:hover{
     color: red;
@@ -79,11 +91,17 @@
 @media (min-width:768px) {
     .container {
         padding: 10px 30px;
+        background-size: 40%;
+        background-repeat: no-repeat;
+        background-position-x: 100%;
+        z-index: 1;
+        /* position: relative; */
     }
    
     .logocont{
         width: 40%;
         height: 5vh;
+        position: relative;
     }
     .img{
         width: 100%;
@@ -101,6 +119,7 @@
         display: block;
         font-size: 1.3rem;
     line-height: 2rem;
+  
     }
     .subcont{
         display: block;
@@ -120,6 +139,11 @@
 @media (min-width:1024px) {
     .container {
         padding: 10px;
+        background-size: 28%;
+        background-repeat: no-repeat;
+        background-position-x: 65%;
+        z-index: 1;
+        position: relative;
         /* border: 1px solid rgb(255, 0, 255); */
     }
     .subcont{
@@ -128,6 +152,7 @@
         align-items: center;
         padding:0 76px;
         gap: 10px;
+        position: unset;
     }
     .imgcont{
         display: block;
@@ -158,6 +183,7 @@
         flex: 3;
         font-size: 0.9rem;
         line-height: 1rem;
+        position: unset;
        
     }
     .buttonone{
@@ -183,6 +209,11 @@
 @media (min-width:1280px) {
     .container {
         padding:10px 30px;
+        background-size: 24%;
+        background-repeat: no-repeat;
+        background-position-x: 66%;
+        z-index: 1;
+        position: relative;
     }
     .subcont{
         display: flex;

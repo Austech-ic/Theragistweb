@@ -86,7 +86,7 @@ const SectionThree = () => {
                 <div className={styles.contdiv}>
                     <div className={styles.divone}>
 
-                        <Image src={only} alt='together-img'  className={styles.image} />
+                        <Image src={newimage} alt='together-img'  className={styles.image} />
                         
                     </div>
                     <div className={styles.divtwo}>

@@ -4,6 +4,7 @@ import styles from './navbar.module.css'
 import Image from "next/image";
 import navlogo from '../../../public/img/navlogo.jpeg'
 import blue from '../../../public/img/blue.png'
+import navnew from '../../../public/img/navnew.png'
 
 import { IoIosMenu } from 'react-icons/io';
 import { RiCalendarEventLine } from 'react-icons/ri';
@@ -24,8 +25,8 @@ const Navbar = () => {
     <div className={styles.subcont}>
       <div className={styles.imgcont}>
     <div className={styles.logocont}>
-        <Image src={navlogo} alt='navlogo' className={styles.img} />
-        <Image src={blue} alt='blue' className={styles.blue} />
+        <Image src={navnew} alt='navlogo' className={styles.img} />
+        {/* <Image src={blue} alt='blue' className={styles.blue} /> */}
         </div>
         <IoIosMenu
           size={50}
@@ -40,7 +41,7 @@ const Navbar = () => {
               <p className={styles.items}>Home</p>
               <p className={styles.items}>About Us</p>
               <p className={styles.items}>Services</p>
-              <p className={styles.items}>Contact Us</p>
+              <p className={styles.items}>Contact</p>
               <Link href={`/`} className={styles.link}>
                 <button className={styles.buttonone}>
                   Download</button>
@@ -59,7 +60,7 @@ const Navbar = () => {
       <p className={styles.items}>Home</p>
               <p className={styles.items}>About Us</p>
               <p className={styles.items}>Services</p>
-              <p className={styles.items}>Contact Us</p>
+              <p className={styles.items}>Contact</p>
               <Link href={`/`} className={styles.link}>
                 <button className={styles.buttonone}>
                  Download</button>

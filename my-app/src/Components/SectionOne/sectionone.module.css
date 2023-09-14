@@ -1,12 +1,33 @@
 .main {
+    /* max-height: 55vh; */
     background-color: #17ADC0;
+    
     padding: 30px;
+    background-image: url(../../../public/img/half.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position-y: 100%;
+    position: unset;
+}
+
+.top_light_image {
+    position: absolute;
+    top: -40px;
+    right: 20px;
+    display: none;
+}
+
+.top_blue_image {
+    display: none;
 }
 
 .subcont {
     display: flex;
     flex-direction: column;
     gap: 40px;
+    /* border: 1px solid blue; */
+
 }
 
 .textone {
@@ -45,28 +66,30 @@
 
 .contone {
     flex: 2;
+    /* background-color: yellow; */
 }
-.textcont{
+
+.textcont {
     font-size: 1.2rem;
-        line-height: 2rem;
-        letter-spacing: 1px;
+    line-height: 2rem;
+    letter-spacing: 1px;
 }
-.textcontwo{
+
+.textcontwo {
     font-size: 0.8rem;
-        line-height: 1.2rem;
-        letter-spacing: 1px;
+    line-height: 1.2rem;
+    letter-spacing: 1px;
 }
-.hide{
+
+.hide {
     display: none;
 }
 
 .contwo {
     flex: 2;
-    background-image: url(../../../public//img/clock.png);
-    background-size: 30%;
-    background-repeat: no-repeat;
-    background-position-y: 1%;
-    background-position-x: 90%;
+    /* border: 1px solid red; */
+    position: relative;
+   
 }
 
 .imgcont {
@@ -76,13 +99,41 @@
     background-repeat: no-repeat;
     background-position-y: 90%;
     background-position-x: 0%;
+    /* position: relative; */
 }
 
 .img {
     width: 100%;
     height: auto;
-    margin-top: 20px;
-    margin-left: 30px;
+    margin-top: 10px;
+    margin-left: 20px;
+    z-index: 5;
+    /* border: 1px solid yellow; */
+}
+.image{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid red;  */
+}
+.newimage{
+    width: 90%;
+    height: auto;
+    /* border: 1px solid rgb(21, 255, 0); */
+    z-index: 1; 
+    position: relative;
+    /* opacity: 0.7; */
+    /* left: 72px; */
+    /* top: 0; */
+    /* position: absolute; */
+}
+.imagecont{
+    /* border: 1px solid rgb(0, 255, 94);  */
+    position: relative;
+    background-image: url(../../../public//img/bar.png);
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position-y: 90%;
+    background-position-x: 0%;
 }
 
 
@@ -90,18 +141,86 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+    /* background-image: url(../../../public/img/light.png); */
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position-x: 100%;
     background-color: #3F9DB7;
     color: white;
     border-radius: 10px;
-    border: none;
+    /* border: none; */
     padding: 20px 10px;
+    z-index: 50;
+    /* border: 1px solid red; */
+    /* margin-top: 21px; */
+
     box-shadow: 4px 0px 4px 4px rgba(0.1, 0, 0.1, 0.1);
 
 }
-.arrow{
-    background-color: transparent;
+
+.arrow {
+    /* background-color: transparent; */
+    /* position: absolute; */
+    z-index: 3;
+    width: 30px;
+    height: 30px;
 }
 
+.lighcont {
+    background-image: url(../../../public/img/half.png);
+    /* z-index: 1;
+    width: 100%; */
+}
+
+.lightimage {
+    position: absolute;
+    z-index: 2;
+    width: 100px;
+    height: 100px;
+    left: 0rem;
+}
+
+.faintimage {
+    display: none;
+}
+
+.clock {
+    width: 120px;
+    height: 50px;
+    bottom: 190px;
+    right: -12px;
+    /* left: 15.5rem; */
+    position: absolute;
+    z-index: 10;
+    /* border: 1px solid red; */
+    /* z-index: 0; */
+    /* position: absolute; */
+
+}
+.barimg{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+}
+.imgnew{
+    z-index: 1;
+    width: 40px;
+    height: 40px;
+}
+.imagecontainer{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.clockimg{
+    width: 120px;
+    height: 50px;
+    position: absolute;
+    top: -26px;
+    right: 46px;
+}
 
 
 
@@ -110,6 +229,11 @@
     .main {
         background-color: #17ADC0;
         padding: 50px 30px;
+        background-image: url(../../../public/img/half.png);
+        background-position: left;
+        background-repeat: no-repeat;
+        background-size: 8%;
+        background-position-y: 100%;
     }
 
     .textone {
@@ -145,19 +269,36 @@
         margin-left: 110px;
         /* height: 50vh; */
     }
+    .image{
+        width: 80%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* border: 1px solid red;  */
+    }
+    .imagecont{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .clock {
+        position: absolute;
+        width: 220px;
+        height: 106px;
+        top: -2px;
+        right: -22px;
+    }
 
     .contwo {
         flex: 2;
-        background-size: 30%;
-        background-repeat: no-repeat;
-        background-position-y: 1%;
-        background-position-x: 100%;
     }
 
     .imgcont {
         background-size: 30%;
         background-repeat: no-repeat;
-        background-position-y: 90%;
+        background-position-y: 100%;
         background-position-x: 10%;
     }
 
@@ -175,7 +316,8 @@
         box-shadow: 4px 0px 4px 4px rgba(0.1, 0, 0.1, 0.1);
 
     }
-    .hide{
+
+    .hide {
         display: block;
     }
 
@@ -186,6 +328,7 @@
         justify-content: center;
         align-items: center;
     }
+
     .textcont {
         flex: 2;
         /* background-color: blue; */
@@ -206,6 +349,7 @@
         justify-content: center;
         align-items: center;
     }
+
     .cont {
         /* background-color: rgb(128, 109, 0); */
         flex: 1;
@@ -214,6 +358,48 @@
         align-items: center;
     }
 
+    .faintimage {
+        position: absolute;
+        /* z-index: 2; */
+        width: 200px;
+        height: 200px;
+        /* left: 75%; */
+        top: 30rem;
+        display: block;
+        /* border: 1px solid red; */
+    }
+
+    .arrow {
+        width: 50px;
+        height: 50px;
+    }
+    .imgnew{
+        z-index: 1;
+        width: 50px;
+        height: 50px;
+    }
+    .faintimage {
+        /* z-index: 2; */
+        width: 200px;
+        height: 200px;
+        right: 0;
+        top: 970px;
+        /* border: 1px solid red; */
+    }
+    .clockimg{
+        width: 220px;
+        height: 100px;
+        position: absolute;
+        top: -26px;
+        right: 148px;
+    }
+    .barimg{
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        bottom: 10px;
+        left: 0;
+    }
 
 
 
@@ -225,7 +411,14 @@
 
 @media (min-width:1024px) {
     .main {
+        max-height: 62vh;
         padding: 60px 87px;
+        background-image: url(../../../public/img/half.png);
+        background-position: left;
+        background-repeat: no-repeat;
+        background-size: 8%;
+        background-position-y: 100%;
+        position: relative;
     }
 
     .subcont {
@@ -234,10 +427,10 @@
     }
 
     .img {
-        width: 100%;
-        margin-top: 20px;
-        margin-left: 80px;
-        /* height: 70vh; */
+        width: 90%;
+        height: auto;
+        margin-top: 10px;
+        margin-left: 50px;
     }
 
     .textone {
@@ -262,30 +455,103 @@
         font-size: 1.0rem;
         line-height: 2rem;
     }
+    .imagecont{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
     .contwo {
-        flex: 2;
-        background-size: 30%;
-        background-repeat: no-repeat;
-        background-position-y: 1%;
-        background-position-x: 100%;
+        flex: 3;
     }
+
 
     .imgcont {
         background-size: 30%;
         background-repeat: no-repeat;
         background-position-y: 90%;
-        background-position-x: 10%;
+        background-position-x: 0%;
     }
+
     .divcont {
-        
+
         padding: 50px 5px;
 
     }
+
+    .top_light_image {
+        position: absolute;
+        top: -40px;
+        right: 240px;
+        display: block;
+    }
+
+    .top_blue_image {
+        position: absolute;
+        top: -40px;
+        left: 30px;
+        display: block;
+        /* z-index: -10; */
+    }
+
+    .clock {
+        position: absolute;
+        width: 193px;
+        height: 72px;
+        top: 10px;
+        right: -27px;
+        /* border: 1px solid red; */
+    }
+    .clockimg{
+        width: 120px;
+        height: 50px;
+        /* position: absolute;
+        top: -28px;
+        right: 90px; */
+    }
+
+    .faintimage {
+        position: absolute;
+        /* z-index: 2; */
+        width: 200px;
+        height: 200px;
+        /* left: 80%; */
+        top: 23rem;
+        /* border: 1px solid red; */
+    }
+    .imgnew{
+        z-index: 1;
+        width: 40px;
+        height: 40px;
+    }
+    .faintimage {
+        /* z-index: 2; */
+        width: 200px;
+        height: 200px;
+        right: 14px;
+        top: 310px;;
+        /* border: 1px solid red; */
+    }
+    .clockimg{
+        width: 120px;
+        height: 50px;
+        position: absolute;
+        top: -26px;
+        right: 138px;
+    }
+    .barimg{
+        width: 110px;
+        height: 120px;
+        position: absolute;
+        bottom: 10px;
+        left: 0;
+    }
+
 }
 
 @media (min-width:1280px) {
     .main {
+        max-height: 55vh;
         padding: 60px 108px;
     }
 
@@ -306,10 +572,102 @@
 
     }
 
+    .imgcont {
+        background-size: 30%;
+        background-repeat: no-repeat;
+        background-position-y: 90%;
+        background-position-x: 0%;
+    }
+
     .img {
-        width: 100%;
-        margin-top: 20px;
-        margin-left: 100px;
-        /* height: 70vh; */
+        width: 90%;
+        height: auto;
+        margin-top: 5px;
+        margin-left: 70px;
+    }
+
+    .top_light_image {
+        position: absolute;
+        top: -40px;
+        right: 296px;
+    }
+
+    .clock {
+        position: absolute;
+        width: 143px;
+        height: 60px;
+        top: -10px;
+        right: 114px;
+        
+    }
+    .imgnew{
+        z-index: 1;
+        width: 50px;
+        height: 50px;
+    }
+
+
+    .faintimage {
+        /* z-index: 2; */
+        width: 254px;
+        height: 254px;
+        right: 14px;
+        top: 355px;
+        /* border: 1px solid red; */
+    }
+    .arrow{
+        position: absolute;
+        right: 171px;
+        bottom: 250px;
+    }
+
+    .cont {
+        /* background-color: rgb(128, 109, 0); */
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 30px;
+    }
+    .image{
+        width: 80%;
+        height: auto;
+        /* border: 1px solid red;  */
+    }
+    .clockimg{
+        width: 120px;
+        height: 50px;
+        position: absolute;
+        top: -26px;
+        right: 188px;
+    }
+    .barimg{
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        bottom: 10px;
+        left: 0;
+    }
+}
+@media (min-width:1440px) {
+    .main {
+        max-height: 60vh;
+        padding: 60px 108px;
+    }
+    .faintimage {
+        /* z-index: 2; */
+        width: 254px;
+        height: 254px;
+        right: 14px;
+        top: 407px;
+       
+    }
+    .clockimg{
+        width: 120px;
+        height: 50px;
+        position: absolute;
+        top: -26px;
+        right: 238px;
+        /* border: 1px solid red; */
     }
 }

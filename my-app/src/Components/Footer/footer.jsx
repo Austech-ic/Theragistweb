@@ -3,6 +3,7 @@ import Image from 'next/image'
 import footerlogo from '../../../public/img/footerlogo.png'
 import { FaFacebookF, FaGooglePlusG } from 'react-icons/fa'
 import { BsInstagram } from 'react-icons/bs'
+import {IoIosArrowForward} from 'react-icons/io'
 import { AiOutlineGooglePlus } from 'react-icons/ai'
 import { GrLinkedinOption } from 'react-icons/gr'
 
@@ -27,6 +28,45 @@ const Footer = () => {
             icon: <FaFacebookF className={styles.icon} />,
         },
     ]
+    const about = [
+        {
+            id:1,
+            text:"About us",
+             icons: <IoIosArrowForward className={styles.iconew} />
+        },
+        {
+            id:2,
+            text:"Our Mission",
+             icons: <IoIosArrowForward className={styles.iconew} />
+        },
+        {
+            id:3,
+            text:"Our Services",
+             icons: <IoIosArrowForward className={styles.iconew} />
+        },
+        {
+            id:4,
+            text:"FAQ",
+             icons: <IoIosArrowForward className={styles.iconew} />
+        }
+    ]
+    const legal = [
+        {
+            id:1,
+            text:"Terms",
+             icons: <IoIosArrowForward className={styles.iconew} />
+        },
+        {
+            id:2,
+            text:"Privacy",
+             icons: <IoIosArrowForward className={styles.iconew} />
+        },
+        {
+            id:3,
+            text:"Settings",
+             icons: <IoIosArrowForward className={styles.iconew} />
+        }
+    ]
     return (
         <div className={styles.container}>
             <div className={styles.main}>
@@ -45,24 +85,41 @@ const Footer = () => {
                     <div className={styles.divtwo}>
                         <p className={styles.label}>Quick Links</p>
                         <div className={styles.abtcont}>
-                            <p className={styles.text}>About us</p>
-                            <p className={styles.text}>Our Mission</p>
-                            <p className={styles.text}>Our Services</p>
-                            <p className={styles.text}>FAQ</p>
+
+                            {
+                                about.map((items) => (
+                                    <div key={items.id} className={styles.conticon}>
+                                 <p>{items.icons}</p>
+                                <p className={styles.text}>{items.text}</p>
+                                </div>
+                                ))
+                            }
+                            
+                          
+                          
                         </div>
                     </div>
                     <div className={styles.divthree}>
                         <p className={styles.label}>Legal</p>
                         <div className={styles.abtcont}>
-                            <p className={styles.text}>Terms</p>
-                            <p className={styles.text}>Privacy</p>
-                            <p className={styles.text}>Settings</p>
+                        {
+                                legal.map((content) => (
+                                    <div key={content.id} className={styles.conticon}>
+                                 <p>{content.icons}</p>
+                                <p className={styles.text}>{content.text}</p>
+                                </div>
+                                ))
+                            }
                         </div>
                     </div>
                     <div className={styles.divfour}>
                         <p className={styles.label}>Contact</p>
                         <div className={styles.abtcont}>
+                            <div className={styles.conticon}>
+                            <IoIosArrowForward className={styles.iconew} /> 
                             <p className={styles.text}>Our Services</p>
+                            </div>
+                            
                         </div>
                     </div>
                 </div>

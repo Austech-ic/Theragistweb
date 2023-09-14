@@ -1,5 +1,8 @@
 import styles from './sectionfour.module.css'
 import circle from '../../../public/img/circle.png'
+import maskone from '../../../public/img/maskone.png'
+import masktwo from '../../../public/img/masktwo.png'
+import maskthree from '../../../public/img/maskthree.png'
 import Image from 'next/image'
 
 
@@ -8,18 +11,21 @@ const SectionFour = () => {
         {
             id: 1,
             label: "As some who is always been prone to worrying, this app has been a lifesaver",
-            pic:<Image src={circle} alt='circle-img' className={styles.circle} />
+            pic:<Image src={maskone} alt='circle-img' className={styles.circle} />,
+            text:"-Michael"
             
         },
         {
             id: 2,
             label: "As some who is always been prone to worrying, this app has been a lifesaver",
-            pic:<Image src={circle} alt='circle-img' className={styles.circle} />
+            pic:<Image src={masktwo} alt='circle-img' className={styles.circle} />,
+            text:"-Joyce"
         },
         {
             id: 3,
             label: "As some who is always been prone to worrying, this app has been a lifesaver",
-            pic:<Image src={circle} alt='circle-img' className={styles.circle} />
+            pic:<Image src={maskthree} alt='circle-img' className={styles.circle} />,
+            text:"-Leeah"
         },
     ]
 
@@ -41,30 +47,16 @@ const SectionFour = () => {
                 {
                     details.map((datum) => (
                         <div key={datum.id}  className={styles.contcont}>
-                            <p className={styles.center}>
-                            <p className={styles.dat}>{datum.pic} </p>{datum.label}</p>
+                            <p className={styles.center}>{datum.label} </p>
+                            <p className={styles.dat}>{datum.pic}</p>
+                            <p className={styles.textnew}>{datum.text}</p>
                            
                             </div>
                     ))
                 }
-              
-               
 
             </div>
-            {/* <div className={styles.cont}>
-                <div className={styles.contcont}>
-                  <p>As some who is always been prone to worrying, this app has been a lifesaver</p>
-                  <Image src={circle} className={styles.circle} />
-                </div>
-                <div className={styles.contcont}>
-                  <p>As some who is always been prone to worrying, this app has been a lifesaver</p>
-                  <Image src={circle} className={styles.circle} />
-                </div>
-                <div className={styles.contcont}>
-                  <p>As some who is always been prone to worrying, this app has been a lifesaver</p>
-                  <Image src={circle} className={styles.circle} />
-                </div>
-            </div> */}
+         
 
 
 

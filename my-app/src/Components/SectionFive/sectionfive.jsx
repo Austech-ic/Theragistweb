@@ -9,6 +9,7 @@ import styles from './sectionfive.module.css'
 
 
 const SectionFive = () => {
+
     const [isDropdownVisible, setDropdownVisible] = useState(false);
     const [isDropInfoVisible, setDropInfoVisible] = useState(false);
 
@@ -22,6 +23,7 @@ const SectionFive = () => {
 
     const toggleDropdown = () => {
         setDropdownVisible(!isDropdownVisible);
+        console.log(isDropdownVisible)
       };
 
       const toggleInfoDropVisible  = () => {
@@ -50,9 +52,10 @@ const SectionFive = () => {
                 <div className={styles.cont} >
                    
                     <p className={styles.label}>How do I choose the right therapist for me?</p>
+                   
                     <IoIosArrowDown
                     onClick={toggleDropdown}
-                      className={styles.icon}/>
+                      className={`${styles.icon} ${isDropdownVisible ? styles.icon_active  : ''}`}/>
 
                    
                 </div>
@@ -68,12 +71,11 @@ const SectionFive = () => {
                 <p className={styles.label}>Is my information kept confidential?</p>
                 <IoIosArrowDown
                 onClick={toggleInfoDropVisible}
-                      className={styles.icon}
-                      />
+                className={`${styles.icon} ${isDropInfoVisible ? styles.icon_active  : ''}`}/>
                 </div>
                 {isDropInfoVisible && (
         <p className={styles.text}>
-          hello
+           We understand the importance of finding the right fit. Our platform allows you to share your story which enables our algorithms to assign you to find a therapist who aligns with your needs and preferences.
         </p>
       )}
                 
@@ -84,12 +86,11 @@ const SectionFive = () => {
                 <p className={styles.label}>What if I cannot afford therapy?</p>
                 <IoIosArrowDown
                 onClick={toggleTheraphyVisible}
-                      className={styles.icon}
-                      />
+                className={`${styles.icon} ${isDropTheraphyVisible ? styles.icon_active  : ''}`}/>
                 </div>
                 {isDropTheraphyVisible && (
         <p className={styles.text}>
-          hello
+           We understand the importance of finding the right fit. Our platform allows you to share your story which enables our algorithms to assign you to find a therapist who aligns with your needs and preferences.
         </p>
       )}
                 
@@ -101,12 +102,11 @@ const SectionFive = () => {
                 <p className={styles.label}>How long will it take to see results in therapy?</p>
                 <IoIosArrowDown
                 onClick={toggleResultVisible}
-                      className={styles.icon}
-                      />
+                className={`${styles.icon} ${isDropResult ? styles.icon_active  : ''}`}/>
                 </div>
                 {isDropResult && (
         <p className={styles.text}>
-          Result
+         We understand the importance of finding the right fit. Our platform allows you to share your story which enables our algorithms to assign you to find a therapist who aligns with your needs and preferences.
         </p>
       )}
                 
@@ -116,12 +116,11 @@ const SectionFive = () => {
                 <p className={styles.label}>Is online therapy as effective as in-person therapy?</p>
                 <IoIosArrowDown
                 onClick={toggleOnlineVisible}
-                      className={styles.icon}
-                      />
+                className={`${styles.icon} ${isDropOnlineVisible ? styles.icon_active  : ''}`}/>
                 </div>
                 {isDropOnlineVisible && (
         <p className={styles.text}>
-          Online
+           We understand the importance of finding the right fit. Our platform allows you to share your story which enables our algorithms to assign you to find a therapist who aligns with your needs and preferences.
         </p>
       )}
                 

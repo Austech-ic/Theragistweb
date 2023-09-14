@@ -14,8 +14,10 @@ import Footer from '@/Components/Footer/footer'
 export default function Home() {
   return (
    <div className={styles.main}>
+    <div className={styles.cont}>
       <Navbar />
       <SectionOne />
+      </div>
       <SectionTwo />
       <SectionThree />
       <SectionFour />

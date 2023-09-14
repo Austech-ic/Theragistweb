@@ -29,6 +29,7 @@
 .text{
     font-size: 0.8rem;
     line-height: 1.5rem;
+    /* background-color: red; */
 }
 .texts{
     font-size: 0.8rem;
@@ -38,6 +39,8 @@
     font-size: 1.0rem;
     line-height: 1.0rem;
     color: #72D7E3;
+    background-color: red;
+   
 }
 .subcont{
     display: flex;
@@ -73,7 +76,16 @@
     text-align: center;
     font-size: 0.8rem;
 }
-
+.conticon{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    /* background-color: red; */
+}
+.iconew{
+    width: 12px;
+    height: 12px;
+}
 
 @media (min-width:768px) {
     .main{
@@ -126,6 +138,16 @@
     .lasttxt{
         text-align: center;
         font-size: 1.0rem;
+    }
+    .iconew{
+        width: 18px;
+        height: 18px;
+    }
+    .conticon{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        /* background-color: red; */
     }
   
     
@@ -202,6 +224,10 @@
     .lasttxt{
         text-align: center;
         font-size: 0.8rem;
+    }
+    .iconew{
+        width: 13px;
+        height: 13px;
     }
   
 }
