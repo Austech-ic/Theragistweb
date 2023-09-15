@@ -2,7 +2,6 @@
 import React, { useState } from 'react'
 import styles from './navbar.module.css'
 import Image from "next/image";
-import navlogo from '../../../public/img/navlogo.jpeg'
 import blue from '../../../public/img/blue.png'
 import navnew from '../../../public/img/navnew.png'
 
@@ -36,12 +35,16 @@ const Navbar = () => {
       </div>
          {/* Mobile Menu Content */}
          {showMobileMenuContent && (
-          <div>
+          <div className={styles.headcont}>
             <div className={styles.listcont}>
               <p className={styles.items}>Home</p>
+             <div className={styles.line}></div>
               <p className={styles.items}>About Us</p>
+              <div className={styles.line}></div>
               <p className={styles.items}>Services</p>
+              <div className={styles.line}></div>
               <p className={styles.items}>Contact</p>
+              <div className={styles.line}></div>
               <Link href={`/`} className={styles.link}>
                 <button className={styles.buttonone}>
                   Download</button>

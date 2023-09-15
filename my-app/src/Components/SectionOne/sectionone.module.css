@@ -481,9 +481,10 @@
 
     .top_light_image {
         position: absolute;
-            top: -68px;
-        right: 240px;
+            top: -91px;
+        right: 200px;
         display: block;
+       
     }
 
     .top_blue_image {
@@ -648,6 +649,13 @@
         bottom: 10px;
         left: 0;
     }
+    .top_light_image {
+        position: absolute;
+            top: -94px;
+        right: 285px;
+        display: block;
+       
+    }
 }
 @media (min-width:1440px) {
     .main {
@@ -660,6 +668,7 @@
         height: 254px;
         right: 14px;
         top: 407px;
+        /* background-color: red; */
        
     }
     .clockimg{

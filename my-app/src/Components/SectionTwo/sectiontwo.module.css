@@ -184,10 +184,11 @@
 
 }
 
-@media (min-width:1024px) {
+@media (min-width:1024px) 
+{
     .textwo{
     font-size: 1rem;
-    line-height: 1.6rem;
+    line-height: 1.8rem;
 }
 .cont{
     display: flex;
@@ -251,7 +252,7 @@
 
     .textwo{
     font-size: 1.1rem;
-    line-height: 1.8rem;
+    line-height: 2.0rem;
 }
 .button{
     font-size: 1.1rem;

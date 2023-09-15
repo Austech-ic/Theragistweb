@@ -1,6 +1,6 @@
 
 .container {
-    padding: 10px 20px;
+    /* padding: 10px 20px; */
     overflow: hidden;
     /* background-image: url(../../../public//img/light.png);
     background-size: 40%;
@@ -12,8 +12,6 @@
 .subcont{
     display: block;
     align-items: center;
-    /* border: 1px solid red; */
-    /* position: relative; */
 }
 .logocont{
     width: 50%;
@@ -39,17 +37,31 @@
 .imgcont{
     /* height: 10vh; */
     display: flex;
+    /* background-color: yellow; */
     justify-content: space-between;
     align-items: center;
+    padding: 10px 20px;
+    /* height: 10vh; */
     /* border: 1px solid green; */
     /* position: relative; */
 }
+.headcont{
+    /* background-color: red; */
+}
 .listcont{
+    background-color: white;
     display: block;
     color: #17ADC0;
-    padding: 10px 0;
+    padding: 10px;
     font-size: 0.9rem;
     line-height: 1.5rem;
+    /* background-color: red; */
+    position: absolute;
+    z-index: 3;
+    width: 95%;
+    top: 58px;
+    /* width: 85%; */
+    /* top: 64px; */
    
     /* border: 1px solid rgb(121, 108, 108); */
     /* position: absolute;
@@ -79,6 +91,10 @@
     list-style: none;
     text-decoration: none;
   }
+  /* .line{
+    border-bottom: 1px solid #007A89;
+    padding: 2px 0;
+  } */
 
 
 
@@ -90,12 +106,15 @@
 
 @media (min-width:768px) {
     .container {
-        padding: 10px 30px;
+        /* padding: 10px 30px; */
         background-size: 40%;
         background-repeat: no-repeat;
         background-position-x: 100%;
         z-index: 1;
         /* position: relative; */
+    }
+    .imgcont{
+        padding: 10px 30px;
     }
    
     .logocont{
@@ -115,10 +134,13 @@
     }
   
     .listcont{
-        padding: 20px 0;
+        padding: 20px 30px;
         display: block;
         font-size: 1.3rem;
     line-height: 2rem;
+    width: 92.5%;
+    top: 76px;
+    /* top: 0; */
   
     }
     .subcont{
@@ -174,11 +196,12 @@
         visibility: hidden;
     }
     .listcont{
+        background-color: transparent;
         padding: 0;
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 33px;
+        gap: 29px;
         padding:0 10px;
         flex: 3;
         font-size: 0.9rem;
@@ -232,6 +255,7 @@
         visibility: hidden;
     }
     .listcont{
+        background-color: transparent;
         display: flex;
         justify-content: center;
         align-items: center;
