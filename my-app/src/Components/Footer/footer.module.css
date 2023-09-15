@@ -25,6 +25,7 @@
     flex-direction: column;
     gap: 5px;
     margin-top: 10px;
+    cursor: pointer;
 }
 .text{
     font-size: 0.8rem;
