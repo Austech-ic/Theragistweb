@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import Male from '../../../public/img/Male.png'
+import Male from '../../../public/img/male.png'
 import bar from '../../../public/img/bar.png'
 import heart from '../../../public/img/heart.png'
 import clock from '../../../public/img/clock.png'
