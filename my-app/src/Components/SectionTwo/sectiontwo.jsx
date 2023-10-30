@@ -51,7 +51,7 @@ const SectionTwo = () => {
                 </div>
                 <div className={styles.conts}>
                     <div className={styles.contwo}>
-                        <p className={styles.label}>Chronc illness</p>
+                        <p className={styles.label}>Chronic illness</p>
                         <p className={styles.textwotext}>
                         Mental Health Specialized mental health counseling for individuals with chronic illnesses is crucial as it addresses both the emotional challenges and the unique stressors that come with managing long-term health conditions. Our counselors have a deep understanding of both mental health and the specific challenges faced by those with chronic illnesses. </p>
                             <div className={styles.buttcont}>
