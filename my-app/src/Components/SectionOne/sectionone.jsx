@@ -20,8 +20,8 @@ const SectionOne = () => {
             <div className={styles.subcont}>
                 <div className={styles.contone}>
                     <p className={styles.textone}>Friendliness and deep connection</p>
-                    <p className={styles.textwo}>Unveil you story: </p>
-                    <p className={styles.texthree}>Finding Healing and <br /> Connection in safe spaces</p>
+                    <p className={styles.textwo}>Unveil Your Story: </p>
+                    <p className={styles.texthree}>Finding Healing and <br /> Connection in Safe Spaces</p>
                     <button className={styles.button}>Make Appointment</button>
                 </div>
 

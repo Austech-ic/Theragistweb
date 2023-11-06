@@ -1,7 +1,7 @@
 
 .main{
     background-color: #F9F6F6;
-    padding: 70px;
+    padding: 70px 30px;
     /* background-color: red; */
 }
 .bold{
@@ -24,10 +24,10 @@
     letter-spacing: 1px;
 }
 .cont{
-    display: flex;
-    flex-direction: column;
+    display: grid;
     gap: 60px;
     padding: 60px 0 10px 0;
+    /* background-color: red; */
    
     
     
@@ -37,9 +37,10 @@ border: 1px solid #17ADC0;
     border-radius: 10px;
     padding: 60px 10px;
     text-align: center;
-   font-size: 0.9rem;
+   font-size: 0.7rem;
    line-height: 1.6rem;
    position: relative;
+   /* min-height: 50vh; */
    background-color: #fff;
    filter: drop-shadow(0px 9px 4px rgba(0, 0, 0, 0.25));
    /* box-shadow: 4px 0px 4px 4px rgba(0.1, 0, 0.1, 0.1); */
@@ -48,27 +49,29 @@ border: 1px solid #17ADC0;
 .circle{
     width: 50px;
     height: 50px;
-    position: absolute;
-    top: -25px;
-    left: 35%;
+    
    
-    /* top: 2rem;
-    left: 5.5rem; */
 }
 .textnew{
     font-weight: bolder;
    margin-top: 30px;
-   font-size: 1.0rem;
+   font-size: 0.9rem;
    line-height: 2rem;
+   /* background-color: yellow; */
 }
 .center{
     /* text-align: start; */
     font-weight: lighter;
+    /* background-color: red; */
+    /* min-height: 50vh; */
 }
-/* .dat{
-    left: 7rem;
+
+.dat{
+  left: 0;
+  right: 0;
+  top: -20px;
     position: absolute;
-} */
+}
 
 
 @media (min-width:768px) 
@@ -76,7 +79,7 @@ border: 1px solid #17ADC0;
     .main{
         /* max-height: 25vh; */
     /* background-color: #F9F6F6; */
-    padding: 70px;
+    padding: 70px ;
 }
 .container{
     padding: 40px 0;
@@ -101,27 +104,32 @@ border: 1px solid #17ADC0;
     line-height: 1.6rem;
 }
 .cont{
-    display: flex;
-    flex-direction: row;
-    gap: 56px;
+   
+    /* gap: 56px; */
     align-items: center;
     
 }
 .contcont{
-     padding: 50px 10px;
+     padding: 70px 30px;
+     font-size: 1rem;
+     line-height: 2rem;
+     /* min-height: 35vh; */
      /* background-color: red; */
 }
 .circle{
-    width: 50px;
-    height: 50px;
-    position: absolute;
-    /* bottom: 8.5rem; */
+    width: 60px;
+    height: 60px;
+    
 }
 .textnew{
     font-weight: bolder;
-   margin-top: 30px;
+   margin-top: 10px;
    font-size: 1.2rem;
    line-height: 2rem;
+}
+.center{
+    /* background-color: red; */
+    min-height: 20vh;
 }
 
 }
@@ -156,18 +164,30 @@ border: 1px solid #17ADC0;
     font-size: 1.0rem;
     line-height: 1.6rem;
 }
+
 .cont{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     gap: 100px;
     padding: 70px 40px;
+    
 }
 .contcont{
     padding: 60px 20px;
+    font-size: 0.8rem;
+    line-height: 1.8rem;
+    /* max-height: 50vh; */
 }
 .textnew{
     font-weight: bolder;
-   margin-top: 30px;
+   margin-top: 10px;
    font-size: 1.0rem;
    line-height: 2rem;
+}
+.center{
+    /* background-color: red; */
+    min-height: 55vh;
 }
 
 }
@@ -180,10 +200,12 @@ border: 1px solid #17ADC0;
     /* max-height: 43vh; */
 }
 .contcont{
-    padding: 99px 10px;
+    padding: 99px 30px;
     font-size: 1.0rem;
-    line-height: 1.9rem;
+    line-height: 2rem;
+    
 }
+
 .cont{
     gap: 100px;
     padding: 70px 40px;
@@ -192,13 +214,16 @@ border: 1px solid #17ADC0;
 .circle{
     width: 65px;
     height: 65px;
-    position: absolute;
-    /* bottom: 8.5rem; */
+   
 }
 .textnew{
     font-weight: bolder;
-   margin-top: 30px;
+   /* margin-top: 30px; */
    font-size: 1.1rem;
    line-height: 2rem;
+}
+.center{
+    /* background-color: red; */
+    min-height: 40vh;
 }
 }
