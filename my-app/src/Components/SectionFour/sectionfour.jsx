@@ -2,6 +2,7 @@ import styles from './sectionfour.module.css'
 import circle from '../../../public/img/circle.png'
 import maskone from '../../../public/img/maskone.png'
 import masktwo from '../../../public/img/masktwo.png'
+import kiz from '../../../public/img/whiteman.png'
 import maskthree from '../../../public/img/maskthree.png'
 import Image from 'next/image'
 
@@ -11,7 +12,7 @@ const SectionFour = () => {
         {
             id: 1,
             label: "I was going through a tough time, and finding this counseling platform was a lifesaver. The therapists here are incredibly compassionate and understanding. My counselor, Eniola, provided a safe space for me to share my feelings and worked with me to develop coping strategies. I can't express how grateful I am for this platform and the support it has given me.",
-            pic:<Image src={maskone} alt='circle-img' className={styles.circle} />,
+            pic:<Image src={kiz} alt='circle-img' className={styles.circle} />,
             text:"-Kizito"
             
         },
@@ -24,7 +25,7 @@ const SectionFour = () => {
         {
             id: 3,
             label: "I've struggled with anxiety for years, and this counseling platform has been a game-changer for me. The therapists here are highly skilled and empathetic. My counselor, Rachel, not only listens to my concerns but also provides practical tools to manage my anxiety. The online sessions have been convenient, and I appreciate the flexibility this platform offers. I've seen significant improvements in my mental health, and I owe it to the professionals here.",
-            pic:<Image src={maskthree} alt='circle-img' className={styles.circle} />,
+            pic:<Image src={maskone} alt='circle-img' className={styles.circle} />,
             text:"-Udo"
         },
         {
