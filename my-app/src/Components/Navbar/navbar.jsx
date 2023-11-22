@@ -4,7 +4,6 @@ import styles from './navbar.module.css'
 import Image from "next/image";
 import blue from '../../../public/img/blue.png'
 import navnew from '../../../public/img/navnew.png'
-
 import { IoIosMenu } from 'react-icons/io';
 import { RiCalendarEventLine } from 'react-icons/ri';
 import Link from 'next/link';
@@ -45,7 +44,7 @@ const Navbar = () => {
               <div className={styles.line}></div>
               <p className={styles.items}>Contact</p>
               <div className={styles.line}></div>
-              <Link href={`/`} className={styles.link}>
+              <Link href={`/mobile`} className={styles.link}>
                 <button className={styles.buttonone}>
                   Download</button>
               </Link>
@@ -64,7 +63,7 @@ const Navbar = () => {
               <p className={styles.items}>About Us</p>
               <p className={styles.items}>Services</p>
               <p className={styles.items}>Contact</p>
-              <Link href={`/`} className={styles.link}>
+              <Link href={`/mobile`} className={styles.link}>
                 <button className={styles.buttonone}>
                  Download</button>
               </Link>
