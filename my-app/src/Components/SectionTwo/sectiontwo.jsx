@@ -4,6 +4,7 @@ import mask from '../../../public/img/mask.png'
 import stressed from '../../../public/img/stressed.png'
 import {MdOutlineKeyboardArrowRight} from 'react-icons/md'
 import styles from './sectiontwo.module.css'
+import Link from 'next/link';
 
 const SectionTwo = () => {
     return (
@@ -38,10 +39,13 @@ const SectionTwo = () => {
                             and confidential space for open conversations.
                             Our goal is to empower adolescents with effective
                             coping strategies, emotional resilience, and a deeper understanding of their emotions.  </p>
+                            
+                            <Link href={`/mobile`} className={styles.link}>
                             <div className={styles.buttcont}>
                             <button className={styles.button}>Get started</button>
                             <MdOutlineKeyboardArrowRight className={styles.icon}/>
                             </div> 
+                            </Link>
                            
                             
                     </div>
@@ -54,11 +58,12 @@ const SectionTwo = () => {
                         <p className={styles.label}>Chronic illness</p>
                         <p className={styles.textwotext}>
                         Mental Health Specialized mental health counseling for individuals with chronic illnesses is crucial as it addresses both the emotional challenges and the unique stressors that come with managing long-term health conditions. Our counselors have a deep understanding of both mental health and the specific challenges faced by those with chronic illnesses. </p>
+                        <Link href={`/mobile`} className={styles.link}>
                             <div className={styles.buttcont}>
                             <button className={styles.button}>Get started</button>
                             <MdOutlineKeyboardArrowRight className={styles.icon}/>
                             </div> 
-                           
+                            </Link>
                             
                     </div>
                     <div className={styles.contones}>

@@ -98,6 +98,10 @@
 .contwo{
     /* border: 1px solid red; */
 }
+.link{
+    list-style: none;
+    text-decoration: none;
+  }
 
 
 @media (min-width:768px) {

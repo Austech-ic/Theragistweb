@@ -8,6 +8,7 @@ import onee from '../../../public/img/one.jpeg'
 import twok from '../../../public/img/twok.jpeg'
 import three from '../../../public/img/eight.jpeg'
 import { MdOutlineKeyboardArrowRight } from 'react-icons/md'
+import Link from 'next/link';
 
 
 const SectionThree = () => {
@@ -28,10 +29,12 @@ const SectionThree = () => {
                             transformative phase is our priority, and together,
                             we are here to provide the support you deserve.
                         </p>
-                        <div className={styles.buttcont}>
+                        <Link href={`/mobile`} className={styles.link}>
+                            <div className={styles.buttcont}>
                             <button className={styles.button}>Get started</button>
-                            <MdOutlineKeyboardArrowRight className={styles.icon} />
-                        </div>
+                            <MdOutlineKeyboardArrowRight className={styles.icon}/>
+                            </div> 
+                            </Link>
 
 
                     </div>
@@ -50,10 +53,12 @@ const SectionThree = () => {
                             focus on confidentiality and personalized care,
                             we are here to help you thrive.
                         </p>
-                        <div className={styles.buttcont}>
+                        <Link href={`/mobile`} className={styles.link}>
+                            <div className={styles.buttcont}>
                             <button className={styles.button}>Get started</button>
-                            <MdOutlineKeyboardArrowRight className={styles.icon} />
-                        </div>
+                            <MdOutlineKeyboardArrowRight className={styles.icon}/>
+                            </div> 
+                            </Link>
 
 
                     </div>
