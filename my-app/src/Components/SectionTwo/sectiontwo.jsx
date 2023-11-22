@@ -9,7 +9,7 @@ import Link from 'next/link';
 const SectionTwo = () => {
     return (
         <div>
-            <div className={styles.submain}>
+            <div className={styles.submain} id='mission'>
                 <p className={styles.text}>We are on a mission</p>
 
                 <div className={styles.cont}>
@@ -24,7 +24,7 @@ const SectionTwo = () => {
                     </div>
                 </div>
             </div>
-            <div className={styles.divcont}>
+            <div className={styles.divcont} id='services'>
                 <div>
                     <p className={styles.texts}>Our Counsellors can help you </p>
                     <p className={styles.textwos}>Open your possibilities to the world and get rid of your inner limitations</p>

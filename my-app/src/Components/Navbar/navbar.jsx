@@ -38,9 +38,13 @@ const Navbar = () => {
             <div className={styles.listcont}>
               <p className={styles.items}>Home</p>
              <div className={styles.line}></div>
+             <Link href="#mission" className={styles.link}>
               <p className={styles.items}>About Us</p>
+              </Link>
               <div className={styles.line}></div>
+              <Link href="#services" className={styles.link}>
               <p className={styles.items}>Services</p>
+              </Link>
               <div className={styles.line}></div>
               <p className={styles.items}>Contact</p>
               <div className={styles.line}></div>
@@ -60,8 +64,12 @@ const Navbar = () => {
       
       <div className={`${styles.listcont} ${styles.visibleOnDesktop}`}>
       <p className={styles.items}>Home</p>
+      <Link href="#mission" className={styles.link}>
               <p className={styles.items}>About Us</p>
+              </Link>
+              <Link href="#services" className={styles.link}>
               <p className={styles.items}>Services</p>
+              </Link>
               <p className={styles.items}>Contact</p>
               <Link href={`/mobile`} className={styles.link}>
                 <button className={styles.buttonone}>

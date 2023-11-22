@@ -6,6 +6,7 @@ import { BsInstagram } from 'react-icons/bs'
 import {IoIosArrowForward} from 'react-icons/io'
 import { AiOutlineGooglePlus } from 'react-icons/ai'
 import { GrLinkedinOption } from 'react-icons/gr'
+import Link from 'next/link'
 
 
 
@@ -28,28 +29,7 @@ const Footer = () => {
             icon: <FaFacebookF className={styles.icon} />,
         },
     ]
-    const about = [
-        {
-            id:1,
-            text:"About us",
-             icons: <IoIosArrowForward className={styles.iconew} />
-        },
-        {
-            id:2,
-            text:"Our Mission",
-             icons: <IoIosArrowForward className={styles.iconew} />
-        },
-        {
-            id:3,
-            text:"Our Services",
-             icons: <IoIosArrowForward className={styles.iconew} />
-        },
-        {
-            id:4,
-            text:"FAQ",
-             icons: <IoIosArrowForward className={styles.iconew} />
-        }
-    ]
+  
     const legal = [
         {
             id:1,
@@ -87,14 +67,33 @@ const Footer = () => {
                         <p className={styles.label}>Quick Links</p>
                         <div className={styles.abtcont}>
 
-                            {
-                                about.map((items) => (
-                                    <div key={items.id} className={styles.conticon}>
-                                 <p>{items.icons}</p>
-                                <p className={styles.text}>{items.text}</p>
+                             <Link href="#mission" className={styles.link}>
+                              <div  className={styles.conticon}>
+                              <IoIosArrowForward className={styles.iconew} />
+                                <p className={styles.text}>About us</p>
                                 </div>
-                                ))
-                            }
+                                </Link>
+
+                                <Link href="#mission" className={styles.link}>
+                              <div  className={styles.conticon}>
+                              <IoIosArrowForward className={styles.iconew} />
+                                <p className={styles.text}>Our Mission</p>
+                                </div>
+                                </Link>
+
+                                <Link href="#services" className={styles.link}>
+                              <div  className={styles.conticon}>
+                              <IoIosArrowForward className={styles.iconew} />
+                                <p className={styles.text}>Our Services</p>
+                                </div>
+                                </Link>
+
+                                <Link href="#" className={styles.link}>
+                              <div  className={styles.conticon}>
+                              <IoIosArrowForward className={styles.iconew} />
+                                <p className={styles.text}>FAQ</p>
+                                </div>
+                                </Link>
                             
                           
                           
@@ -116,10 +115,13 @@ const Footer = () => {
                     <div className={styles.divfour}>
                         <p className={styles.label}>Contact</p>
                         <div className={styles.abtcont}>
-                            <div className={styles.conticon}>
-                            <IoIosArrowForward className={styles.iconew} /> 
-                            <p className={styles.text}>Our Services</p>
-                            </div>
+                        <Link href="#services" className={styles.link}>
+                              <div  className={styles.conticon}>
+                              <IoIosArrowForward className={styles.iconew} />
+                                <p className={styles.text}>Our Services</p>
+                                </div>
+                                </Link>
+
                             
                         </div>
                     </div>

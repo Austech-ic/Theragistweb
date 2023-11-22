@@ -87,6 +87,11 @@
     width: 12px;
     height: 12px;
 }
+.link{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
 
 @media (min-width:768px) {
     .main{
