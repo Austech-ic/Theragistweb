@@ -116,7 +116,7 @@ const toggleProgram = () => {
                 </div>
                 {isDropTheraphyVisible && (
         <p className={styles.text}>
-          In the first appointment, you will undergo a general and specific diagnosis which will dictate the type of therapy/counseling you'll receive for the remaining appointments. You'll then set initial treatment goals with your Counsellor/Therapist. 
+          In the first appointment, you will undergo a general and specific diagnosis which will dictate the type of therapy or counseling you will receive for the remaining appointments. You will then set initial treatment goals with your Counsellor or Therapist. 
 
         </p>
       )}
@@ -133,7 +133,7 @@ const toggleProgram = () => {
                 </div>
                 {isDropResult && (
         <p className={styles.text}>
-         Certainly, in fact, you can remain anonymous if you want to. 
+         Certainly in fact you can remain anonymous if you want to. 
         </p>
       )}
                 
