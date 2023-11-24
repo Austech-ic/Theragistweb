@@ -77,7 +77,7 @@ const toggleProgram = () => {
             <div  className={styles.subcont}>
                 <div className={styles.cont} >
                    
-                    <p className={styles.label}>What if I want more therapy sessions than the one my organization booked for me?</p>
+                    <p className={styles.label}>What if more therapy sessions is needed?</p>
                    
                     <IoIosArrowDown
                     onClick={toggleDropdown}
