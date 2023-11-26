@@ -10,6 +10,7 @@ import SectionFour from '@/Components/SectionFour/sectionfour'
 import SectionFive from '@/Components/SectionFive/sectionfive'
 import Footer from '@/Components/Footer/footer'
 import Loading from '@/Components/Loading/loading'
+import ContactInfo from '@/Components/Contact/contact';
 
 
 export default function Home() {
@@ -40,6 +41,7 @@ export default function Home() {
         <SectionTwo />
         <SectionThree />
         <SectionFour />
+        <ContactInfo />
         <SectionFive />
         <Footer />
       </div>
