@@ -7,7 +7,7 @@ const ContactInfo = () => {
   return (
     <div className={styles.main}>
       <p className={styles.center}>Contact Information</p>
-      <p className={styles.text}>Address:Mandela House, African University of Science and Technology, Galadimawa Abuja</p>
+      <p className={styles.text}>Address:Mandela House, African University of Science and Technology, Galadimawa Abuja.</p>
       <p className={styles.text}>
         Email: <a className={styles.link} href="mailto:info@theragist.com">info@theragist.com</a>
       </p>
