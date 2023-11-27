@@ -46,7 +46,9 @@ const Navbar = () => {
               <p className={styles.items}>Services</p>
               </Link>
               <div className={styles.line}></div>
+              <Link href="#contact-us" className={styles.link}>
               <p className={styles.items}>Contact</p>
+              </Link>
               <div className={styles.line}></div>
               <Link href={`/mobile`} className={styles.link}>
                 <button className={styles.buttonone}>
@@ -70,7 +72,9 @@ const Navbar = () => {
               <Link href="#services" className={styles.link}>
               <p className={styles.items}>Services</p>
               </Link>
+              <Link href="#contact-us" className={styles.link}>
               <p className={styles.items}>Contact</p>
+              </Link>
               <Link href={`/mobile`} className={styles.link}>
                 <button className={styles.buttonone}>
                  Download</button>

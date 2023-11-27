@@ -6,7 +6,7 @@ import styles from './contact.module.css'
 
 const ContactInfo = () => {
   return (
-    <div className={styles.main}>
+    <div className={styles.main} id="contact-us">
       <p className={styles.center}>Contact Information</p>
       <div className={styles.cont}>
       <p className={styles.text}>Address:</p>
