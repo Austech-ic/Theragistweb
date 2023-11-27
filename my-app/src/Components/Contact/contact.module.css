@@ -17,6 +17,17 @@
     line-height: 2.0rem;
     display: flex;
     align-items: center;
+    flex: 1;
+    /* font-weight: lighter; */
+   
+}
+.texts{
+    font-size: 0.8rem;
+    line-height: 2.0rem;
+    display: flex;
+    align-items: center;
+    flex: 4.5;
+    /* font-weight:bolder; */
    
 }
 .link{
@@ -24,6 +35,13 @@
    list-style: none;
    color: black;
 }
+.cont{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 10px;
+}
+
 
 
 
@@ -46,6 +64,18 @@
     line-height: 3.0rem;
        
     }
+    .texts{
+        font-size: 1.3rem;
+    line-height: 3.0rem;
+        flex: 6;
+    }
+    .cont{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    
 }
 
 
@@ -65,9 +95,14 @@ padding: 10px 0;
 }
 
 .text{
-    font-size: 1.1rem;
+    font-size: 1.0rem;
     line-height: 3rem;
     /* width: 70%; */
+}
+.texts{
+    font-size: 1.0rem;
+    line-height: 3rem;
+    flex: 8;
 }
 }
 
@@ -88,7 +123,12 @@ padding: 20px 0;
 .text{
     font-size: 1.2rem;
     /* width: 50%; */
-    line-height: 3rem;
+    line-height: 3.5rem;
   
+}
+.texts{
+    font-size: 1.2rem;
+    line-height: 3.5rem;
+    flex: 11;
 }
 }

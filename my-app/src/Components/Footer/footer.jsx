@@ -1,7 +1,7 @@
 import styles from './footer.module.css'
 import Image from 'next/image'
 import footerlogo from '../../../public/img/footerlogo.png'
-import { FaFacebookF, FaGooglePlusG } from 'react-icons/fa'
+import { FaFacebookF, FaGooglePlusG,FaYoutube } from 'react-icons/fa'
 import { BsInstagram } from 'react-icons/bs'
 import {IoIosArrowForward} from 'react-icons/io'
 import { AiOutlineGooglePlus } from 'react-icons/ai'
@@ -14,21 +14,17 @@ const Footer = () => {
     const details = [
         {
             id: 1,
-            icon: <BsInstagram className={styles.icon} />,
-        },
-        {
+            icon: <a href="https://instagram.com/theragist?igshid=NzZlODBkYWE4Ng==" target="_blank" rel="noopener noreferrer"><BsInstagram className={styles.icon} /></a>,
+          },
+          {
             id: 2,
-            icon: <FaGooglePlusG className={styles.icon} />,
-        },
-        {
+            icon: <a href="https://www.linkedin.com/in/eniola-oni-8ba018180?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer"><GrLinkedinOption className={styles.icon} /></a>,
+          },
+          {
             id: 3,
-            icon: <GrLinkedinOption className={styles.icon} />,
-        },
-        {
-            id: 4,
-            icon: <FaFacebookF className={styles.icon} />,
-        },
-    ]
+            icon: <a href="https://youtube.com/@theragist?si=OClCj1dGveog7Ci7" target="_blank" rel="noopener noreferrer"><FaYoutube className={styles.icon} /></a>,
+          },
+        ];
   
     const legal = [
         {
