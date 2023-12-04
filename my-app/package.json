@@ -3,11 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "node server.js",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "export": "npm run build && next export && mv out _static"
+    "start": "NODE_ENV=production node server.js"
   },
   "dependencies": {
     "eslint": "8.48.0",
