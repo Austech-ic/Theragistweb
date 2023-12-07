@@ -49,6 +49,9 @@ const Navbar = () => {
               <Link href="#contact-us" className={styles.link}>
               <p className={styles.items}>Contact</p>
               </Link>
+              <Link href={`/workspace`} className={styles.link}>
+              <p className={styles.items}>Workspace</p>
+              </Link>
               <div className={styles.line}></div>
               <Link href={`/mobile`} className={styles.link}>
                 <button className={styles.buttonone}>
@@ -74,6 +77,9 @@ const Navbar = () => {
               </Link>
               <Link href="#contact-us" className={styles.link}>
               <p className={styles.items}>Contact</p>
+              </Link>
+              <Link href={`/workspace`} className={styles.link}>
+              <p className={styles.items}>Workspace</p>
               </Link>
               <Link href={`/mobile`} className={styles.link}>
                 <button className={styles.buttonone}>

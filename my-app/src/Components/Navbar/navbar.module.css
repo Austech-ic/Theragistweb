@@ -211,10 +211,10 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        gap: 29px;
-        padding:0 10px;
-        flex: 3;
-        font-size: 0.9rem;
+        gap: 21px;
+        padding: 0 10px;
+        flex: 4 1;
+        font-size: 0.8rem;
         line-height: 1rem;
         position: unset;
        
@@ -269,7 +269,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 42px;
+        gap: 21px;
         height: 6vh;
         flex: 3;
         font-size: 0.9rem;
