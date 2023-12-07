@@ -8,6 +8,7 @@ import styles from './sectionone.module.css'
 import light from '../../../public/img/light.png'
 import blue from '../../../public/img/blue.png'
 import faint from '../../../public/img/faint.png'
+import Link from 'next/link';
 
 
 const SectionOne = () => {
@@ -22,7 +23,9 @@ const SectionOne = () => {
                     <p className={styles.textone}>Friendliness and deep connection</p>
                     <p className={styles.textwo}>Unveil Your Story: </p>
                     <p className={styles.texthree}>Finding Healing and <br /> Connection in Safe Spaces</p>
+                    <Link href={`/mobile`}>
                     <button className={styles.button}>Make Appointment</button>
+                    </Link>
                 </div>
 
                 

@@ -23,9 +23,9 @@ export default function App({ Component, pageProps }) {
     <div>
       <React.Fragment>
         <Head>
-        <link rel="icon" sizes="192x192" href="brand/head.jpeg" />
-          <link rel="icon" type="image/png" href="brand/head.jpeg" />
-          <link rel="icon" sizes="128x128" href="/brand/head.jpeg" />
+        <link rel="icon" sizes="192x192" href="brand/head.png" />
+          <link rel="icon" type="image/png" href="brand/head.png" />
+          <link rel="icon" sizes="128x128" href="/brand/head.png" />
           <title>{title}</title>
         </Head>
           <Component {...pageProps} />
